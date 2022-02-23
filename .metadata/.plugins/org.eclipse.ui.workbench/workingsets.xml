@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="com.ibm.etools.mft.navigator.BrokerWorkingSet.AppLib" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1645600718117_1" label="[TestJenkinsBuild]" name="[TestJenkinsBuild]">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/TestJenkinsBuild" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1641476031563_0" label="Window Working Set" name="Aggregate for window 1641476031563"/>
+</workingSetManager>

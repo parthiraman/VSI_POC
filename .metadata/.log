@@ -1,0 +1,805 @@
+!SESSION 2022-01-06 19:03:03.885 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.6.15 - pwa6480sr6fp15-20200724_01(SR6 FP15)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200724_452227 (JIT enabled, AOT enabled)
+OpenJ9   - 4ce4b9d
+OMR      - 08b0594
+IBM      - 70917a2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.equinox.registry 2 0 2022-01-06 19:03:35.389
+!MESSAGE The extensions and extension-points from the bundle "org.eclipse.emf.commonj.sdo" are ignored. The bundle is not marked as singleton. 
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-06 19:03:39.254
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:96)
+	at org.eclipse.equinox.internal.p2.metadata.repository.MetadataRepositoryManager.loadRepository(MetadataRepositoryManager.java:92)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadMetadataRepository(Activator.java:99)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getMetadataRepository(DropinsRepositoryListener.java:233)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:122)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(AccessController.java:734)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:936)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:319)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.metadata.repository 4 1000 2022-01-06 19:03:39.255
+!MESSAGE No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+
+!ENTRY org.eclipse.equinox.p2.core 4 0 2022-01-06 19:03:39.276
+!MESSAGE Provisioning exception
+!STACK 1
+org.eclipse.equinox.p2.core.ProvisionException: No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.fail(AbstractRepositoryManager.java:395)
+	at org.eclipse.equinox.internal.p2.repository.helpers.AbstractRepositoryManager.loadRepository(AbstractRepositoryManager.java:692)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:104)
+	at org.eclipse.equinox.internal.p2.artifact.repository.ArtifactRepositoryManager.loadRepository(ArtifactRepositoryManager.java:100)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.loadArtifactRepository(Activator.java:142)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.getArtifactRepository(DropinsRepositoryListener.java:260)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.addRepository(DropinsRepositoryListener.java:123)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.DropinsRepositoryListener.added(DropinsRepositoryListener.java:96)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.processFile(DirectoryWatcher.java:197)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.scanDirectories(DirectoryWatcher.java:160)
+	at org.eclipse.equinox.internal.provisional.p2.directorywatcher.DirectoryWatcher.poll(DirectoryWatcher.java:108)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.watchDropins(Activator.java:542)
+	at org.eclipse.equinox.internal.p2.reconciler.dropins.Activator.start(Activator.java:172)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:771)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl$3.run(BundleContextImpl.java:1)
+	at java.security.AccessController.doPrivileged(AccessController.java:734)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.startActivator(BundleContextImpl.java:764)
+	at org.eclipse.osgi.internal.framework.BundleContextImpl.start(BundleContextImpl.java:721)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle.startWorker0(EquinoxBundle.java:936)
+	at org.eclipse.osgi.internal.framework.EquinoxBundle$EquinoxModule.startWorker(EquinoxBundle.java:319)
+	at org.eclipse.osgi.container.Module.doStart(Module.java:571)
+	at org.eclipse.osgi.container.Module.start(Module.java:439)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1582)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.incStartLevel(ModuleContainer.java:1562)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.doContainerStartLevel(ModuleContainer.java:1533)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1476)
+	at org.eclipse.osgi.container.ModuleContainer$ContainerStartLevel.dispatchEvent(ModuleContainer.java:1)
+	at org.eclipse.osgi.framework.eventmgr.EventManager.dispatchEvent(EventManager.java:230)
+	at org.eclipse.osgi.framework.eventmgr.EventManager$EventThread.run(EventManager.java:340)
+!SUBENTRY 1 org.eclipse.equinox.p2.artifact.repository 4 1000 2022-01-06 19:03:39.276
+!MESSAGE No repository found at file:/C:/ProgramData/IBM/MQSI/extensions/10.0.0/tools.
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-06 19:03:45.131
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 19:03:48.817
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 19:03:48.823
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 19:03:48.825
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 19:03:51.866
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 19:03:51.868
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.22\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 19:03:53.397
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 19:03:53.400
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 19:03:53.403
+!MESSAGE 
+
+!ENTRY org.eclipse.help.base 4 0 2022-01-06 19:05:42.728
+!MESSAGE I/O error while trying to contact the remote help server
+!STACK 0
+java.net.MalformedURLException
+	at java.net.URL.<init>(URL.java:656)
+	at java.net.URL.<init>(URL.java:519)
+	at java.net.URL.<init>(URL.java:468)
+	at org.apache.xerces.impl.XMLEntityManager.setupCurrentEntity(Unknown Source)
+	at org.apache.xerces.impl.XMLVersionDetector.determineDocVersion(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XML11Configuration.parse(Unknown Source)
+	at org.apache.xerces.parsers.XMLParser.parse(Unknown Source)
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:56)
+	at org.eclipse.help.internal.dynamic.DocumentReader.read(DocumentReader.java:44)
+	at org.eclipse.help.internal.base.remote.RemoteExtensionProvider.getContentExtensions(RemoteExtensionProvider.java:66)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.loadExtensions(ContentExtensionManager.java:100)
+	at org.eclipse.help.internal.extension.ContentExtensionManager.getExtensions(ContentExtensionManager.java:68)
+	at org.eclipse.help.internal.dynamic.ExtensionResolver.resolveExtension(ExtensionResolver.java:61)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handleExtension(ExtensionHandler.java:62)
+	at org.eclipse.help.internal.dynamic.ExtensionHandler.handle(ExtensionHandler.java:43)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.access$1(TocAssembler.java:230)
+	at org.eclipse.help.internal.toc.TocAssembler$LinkHandler.handle(TocAssembler.java:361)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:44)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.dynamic.DocumentProcessor.process(DocumentProcessor.java:57)
+	at org.eclipse.help.internal.toc.TocAssembler.process(TocAssembler.java:250)
+	at org.eclipse.help.internal.toc.TocAssembler.assemble(TocAssembler.java:79)
+	at org.eclipse.help.internal.toc.TocManager.getRootTocContributions(TocManager.java:309)
+	at org.eclipse.help.internal.toc.TocManager.getTocs(TocManager.java:68)
+	at org.eclipse.help.internal.toc.TocManager.getTopic(TocManager.java:123)
+	at org.eclipse.help.internal.toc.TocManager.getTopicPath(TocManager.java:138)
+	at org.eclipse.help.internal.webapp.data.UrlUtil.getTopicPath(UrlUtil.java:240)
+	at org.eclipse.help.internal.webapp.servlet.BreadcrumbsFilter.filter(BreadcrumbsFilter.java:76)
+	at org.eclipse.help.internal.webapp.servlet.EclipseConnector.transfer(EclipseConnector.java:196)
+	at org.eclipse.help.internal.webapp.servlet.ContentServlet.doGet(ContentServlet.java:45)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:735)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.registry.internal.ServletManager$ServletWrapper.service(ServletManager.java:180)
+	at org.eclipse.equinox.http.servlet.internal.ServletRegistration.service(ServletRegistration.java:61)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.processAlias(ProxyServlet.java:128)
+	at org.eclipse.equinox.http.servlet.internal.ProxyServlet.service(ProxyServlet.java:68)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:848)
+	at org.eclipse.equinox.http.jetty.internal.HttpServerManager$InternalHttpServiceServlet.service(HttpServerManager.java:360)
+	at org.eclipse.jetty.servlet.ServletHolder.handle(ServletHolder.java:684)
+	at org.eclipse.jetty.servlet.ServletHandler.doHandle(ServletHandler.java:503)
+	at org.eclipse.jetty.server.session.SessionHandler.doHandle(SessionHandler.java:229)
+	at org.eclipse.jetty.server.handler.ContextHandler.doHandle(ContextHandler.java:1086)
+	at org.eclipse.jetty.servlet.ServletHandler.doScope(ServletHandler.java:429)
+	at org.eclipse.jetty.server.session.SessionHandler.doScope(SessionHandler.java:193)
+	at org.eclipse.jetty.server.handler.ContextHandler.doScope(ContextHandler.java:1020)
+	at org.eclipse.jetty.server.handler.ScopedHandler.handle(ScopedHandler.java:135)
+	at org.eclipse.jetty.server.handler.HandlerWrapper.handle(HandlerWrapper.java:116)
+	at org.eclipse.jetty.server.Server.handle(Server.java:370)
+	at org.eclipse.jetty.server.AbstractHttpConnection.handleRequest(AbstractHttpConnection.java:494)
+	at org.eclipse.jetty.server.AbstractHttpConnection.headerComplete(AbstractHttpConnection.java:971)
+	at org.eclipse.jetty.server.AbstractHttpConnection$RequestHandler.headerComplete(AbstractHttpConnection.java:1033)
+	at org.eclipse.jetty.http.HttpParser.parseNext(HttpParser.java:644)
+	at org.eclipse.jetty.http.HttpParser.parseAvailable(HttpParser.java:235)
+	at org.eclipse.jetty.server.AsyncHttpConnection.handle(AsyncHttpConnection.java:82)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint.handle(SelectChannelEndPoint.java:696)
+	at org.eclipse.jetty.io.nio.SelectChannelEndPoint$1.run(SelectChannelEndPoint.java:53)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool.runJob(QueuedThreadPool.java:608)
+	at org.eclipse.jetty.util.thread.QueuedThreadPool$3.run(QueuedThreadPool.java:543)
+	at java.lang.Thread.run(Thread.java:822)
+Caused by: java.lang.NullPointerException
+	at java.net.URL.<init>(URL.java:561)
+	... 64 more
+
+!ENTRY org.eclipse.ui 4 0 2022-01-06 19:28:22.560
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Text.getText(Text.java:1351)
+	at org.eclipse.ui.internal.quickaccess.QuickAccessContents$4$1.run(QuickAccessContents.java:579)
+	at org.eclipse.swt.widgets.Display.runTimer(Display.java:4273)
+	at org.eclipse.swt.widgets.Display.messageProc(Display.java:3360)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at com.ibm.etools.mft.broker.runtime.wizards.CreateLocalBrokerWizard.performFinish(CreateLocalBrokerWizard.java:33)
+	at org.eclipse.jface.wizard.WizardDialog.finishPressed(WizardDialog.java:853)
+	at org.eclipse.jface.wizard.WizardDialog.buttonPressed(WizardDialog.java:438)
+	at org.eclipse.jface.dialogs.Dialog$2.widgetSelected(Dialog.java:619)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:248)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:832)
+	at org.eclipse.jface.window.Window.open(Window.java:808)
+	at com.ibm.etools.mft.broker.runtime.actions.BrokerCreateAction.run(BrokerCreateAction.java:38)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:519)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:595)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:511)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:420)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4172)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3761)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:587)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+
+!ENTRY org.eclipse.e4.ui.workbench.swt 4 2 2022-01-06 19:54:21.003
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.e4.ui.workbench.swt".
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:62)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.disposed(InjectorImpl.java:390)
+	at org.eclipse.e4.core.internal.di.Requestor.disposed(Requestor.java:143)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:76)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.handleInvalid(TrackableComputationExt.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.clearContext(PartRenderingEngine.java:974)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1963)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1586)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1528)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1618)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1615)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:1196)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1178)
+	at org.eclipse.ui.internal.Workbench.access$22(Workbench.java:1120)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1451)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1448)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1421)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1582)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1528)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1618)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1615)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1629)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:526)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:563)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1696)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4612)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:587)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Shell.getSize(Shell.java:1092)
+	at org.eclipse.ui.internal.quickaccess.SearchField.storeDialog(SearchField.java:580)
+	at org.eclipse.ui.internal.quickaccess.SearchField.dispose(SearchField.java:557)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 89 more
+
+!ENTRY org.eclipse.e4.ui.workbench 4 0 2022-01-06 19:54:21.006
+!MESSAGE Exception occurred while unrendering: org.eclipse.e4.ui.model.application.ui.basic.impl.TrimmedWindowImpl@145ceeb7 (elementId: IDEWindow, tags: [topLevel, shellMaximized], contributorURI: platform:/plugin/org.eclipse.ui.workbench) (widget: null, renderer: null, toBeRendered: true, onTop: false, visible: true, containerData: null, accessibilityPhrase: null) (label: %trimmedwindow.label.eclipseSDK, iconURI: null, tooltip: null, context: null, variables: [], x: 160, y: 160, width: 1024, height: 768)
+!STACK 0
+org.eclipse.e4.core.di.InjectionException: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:62)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.processAnnotated(InjectorImpl.java:888)
+	at org.eclipse.e4.core.internal.di.InjectorImpl.disposed(InjectorImpl.java:390)
+	at org.eclipse.e4.core.internal.di.Requestor.disposed(Requestor.java:143)
+	at org.eclipse.e4.core.internal.contexts.ContextObjectSupplier$ContextInjectionListener.update(ContextObjectSupplier.java:76)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.update(TrackableComputationExt.java:107)
+	at org.eclipse.e4.core.internal.contexts.TrackableComputationExt.handleInvalid(TrackableComputationExt.java:70)
+	at org.eclipse.e4.core.internal.contexts.EclipseContext.dispose(EclipseContext.java:175)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.clearContext(PartRenderingEngine.java:974)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.safeRemoveGui(PartRenderingEngine.java:954)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.access$3(PartRenderingEngine.java:862)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$8.run(PartRenderingEngine.java:857)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.removeGui(PartRenderingEngine.java:841)
+	at org.eclipse.ui.internal.WorkbenchWindow.hardClose(WorkbenchWindow.java:1963)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1586)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1528)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1618)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1615)
+	at org.eclipse.ui.internal.Workbench$14.run(Workbench.java:1196)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.Workbench.busyClose(Workbench.java:1178)
+	at org.eclipse.ui.internal.Workbench.access$22(Workbench.java:1120)
+	at org.eclipse.ui.internal.Workbench$19.run(Workbench.java:1451)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1448)
+	at org.eclipse.ui.internal.Workbench.close(Workbench.java:1421)
+	at org.eclipse.ui.internal.WorkbenchWindow.busyClose(WorkbenchWindow.java:1582)
+	at org.eclipse.ui.internal.WorkbenchWindow.access$16(WorkbenchWindow.java:1528)
+	at org.eclipse.ui.internal.WorkbenchWindow$10.run(WorkbenchWindow.java:1618)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1615)
+	at org.eclipse.ui.internal.WorkbenchWindow.close(WorkbenchWindow.java:1629)
+	at org.eclipse.ui.internal.WorkbenchWindow$6.close(WorkbenchWindow.java:526)
+	at org.eclipse.e4.ui.workbench.renderers.swt.WBWRenderer$11.shellClosed(WBWRenderer.java:563)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:98)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4353)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1061)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1085)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1070)
+	at org.eclipse.swt.widgets.Decorations.closeWidget(Decorations.java:308)
+	at org.eclipse.swt.widgets.Decorations.WM_CLOSE(Decorations.java:1696)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4612)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProcW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DefWindowProc(OS.java:2544)
+	at org.eclipse.swt.widgets.Shell.callWindowProc(Shell.java:498)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:4705)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:339)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1626)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2075)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:5023)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessageW(Native Method)
+	at org.eclipse.swt.internal.win32.OS.DispatchMessage(OS.java:2549)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1151)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1032)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:148)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:677)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:587)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:135)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:380)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:235)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:648)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:603)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1465)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1438)
+Caused by: org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4441)
+	at org.eclipse.swt.SWT.error(SWT.java:4356)
+	at org.eclipse.swt.SWT.error(SWT.java:4327)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:476)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:348)
+	at org.eclipse.swt.widgets.Shell.getSize(Shell.java:1092)
+	at org.eclipse.ui.internal.quickaccess.SearchField.storeDialog(SearchField.java:580)
+	at org.eclipse.ui.internal.quickaccess.SearchField.dispose(SearchField.java:557)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at org.eclipse.e4.core.internal.di.MethodRequestor.execute(MethodRequestor.java:55)
+	... 89 more
+!SESSION 2022-01-06 20:01:22.073 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.6.15 - pwa6480sr6fp15-20200724_01(SR6 FP15)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200724_452227 (JIT enabled, AOT enabled)
+OpenJ9   - 4ce4b9d
+OMR      - 08b0594
+IBM      - 70917a2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-06 20:01:26.946
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 20:01:34.006
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 20:01:34.009
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-06 20:01:34.010
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 20:01:37.794
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 20:01:37.796
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.22\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 20:01:38.313
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 20:01:38.315
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-06 20:01:38.317
+!MESSAGE 
+!SESSION 2022-01-12 09:04:01.458 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.6.15 - pwa6480sr6fp15-20200724_01(SR6 FP15)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200724_452227 (JIT enabled, AOT enabled)
+OpenJ9   - 4ce4b9d
+OMR      - 08b0594
+IBM      - 70917a2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-12 09:04:12.247
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:04:28.096
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:04:28.104
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:04:28.106
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:04:41.738
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:04:41.740
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.22\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:04:42.802
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:04:42.805
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:04:42.806
+!MESSAGE 
+!SESSION 2022-01-12 09:07:42.612 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.6.15 - pwa6480sr6fp15-20200724_01(SR6 FP15)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200724_452227 (JIT enabled, AOT enabled)
+OpenJ9   - 4ce4b9d
+OMR      - 08b0594
+IBM      - 70917a2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-01-12 09:07:45.003
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:07:47.212
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:07:47.215
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-01-12 09:07:47.216
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:07:50.083
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:07:50.085
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.22\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:07:50.855
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:07:50.856
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-01-12 09:07:50.857
+!MESSAGE 
+
+!ENTRY org.eclipse.ui.views.properties.tabbed 4 1 2022-01-12 09:08:32.788
+!MESSAGE Section datatools.properties.function.SecuredSection declares non-existing tab datatools.server.routines.properties.storedprocedure.OptionsPage.
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2022-01-12 10:29:21.822
+!MESSAGE Error creating SQL Model Connection connection to JDA_QA. (Error: The application requester cannot establish the connection. (Connection timed out: connect))
+!STACK 0
+java.sql.SQLException: The application requester cannot establish the connection. (Connection timed out: connect)
+	at com.ibm.as400.access.JDError.throwSQLException(JDError.java:565)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3309)
+	at com.ibm.as400.access.AS400JDBCDriver.prepareConnection(AS400JDBCDriver.java:1393)
+	at com.ibm.as400.access.AS400JDBCDriver.initializeConnection(AS400JDBCDriver.java:1230)
+	at com.ibm.as400.access.AS400JDBCDriver.connect(AS400JDBCDriver.java:371)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:202)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:75)
+	at com.ibm.datatools.db2.connection.DB2UniversalDriverConnectionFactory.createConnection(DB2UniversalDriverConnectionFactory.java:121)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:392)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:718)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:703)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at com.ibm.as400.access.PortMapper.getSocketConnection(PortMapper.java:273)
+	at com.ibm.as400.access.PortMapper.getServerSocket(PortMapper.java:193)
+	at com.ibm.as400.access.AS400ImplRemote.signonConnect(AS400ImplRemote.java:2334)
+	at com.ibm.as400.access.AS400ImplRemote.signon(AS400ImplRemote.java:2250)
+	at com.ibm.as400.access.AS400.sendSignonRequest(AS400.java:3035)
+	at com.ibm.as400.access.AS400.promptSignon(AS400.java:2599)
+	at com.ibm.as400.access.AS400.signon(AS400.java:3910)
+	at com.ibm.as400.access.AS400.connectService(AS400.java:1168)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3301)
+	... 19 more
+
+!ENTRY org.eclipse.datatools.connectivity 2 -1 2022-01-12 10:29:42.954
+!MESSAGE Error creating JDBC Connection connection to JDA_QA. (Error: The application requester cannot establish the connection. (Connection timed out: connect))
+!STACK 0
+java.sql.SQLException: The application requester cannot establish the connection. (Connection timed out: connect)
+	at com.ibm.as400.access.JDError.throwSQLException(JDError.java:565)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3309)
+	at com.ibm.as400.access.AS400JDBCDriver.prepareConnection(AS400JDBCDriver.java:1393)
+	at com.ibm.as400.access.AS400JDBCDriver.initializeConnection(AS400JDBCDriver.java:1230)
+	at com.ibm.as400.access.AS400JDBCDriver.connect(AS400JDBCDriver.java:371)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:202)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:75)
+	at com.ibm.datatools.db2.connection.DB2UniversalDriverConnectionFactory.createConnection(DB2UniversalDriverConnectionFactory.java:121)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:392)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at com.ibm.as400.access.PortMapper.getSocketConnection(PortMapper.java:273)
+	at com.ibm.as400.access.PortMapper.getServerSocket(PortMapper.java:193)
+	at com.ibm.as400.access.AS400ImplRemote.signonConnect(AS400ImplRemote.java:2334)
+	at com.ibm.as400.access.AS400ImplRemote.signon(AS400ImplRemote.java:2250)
+	at com.ibm.as400.access.AS400.sendSignonRequest(AS400.java:3035)
+	at com.ibm.as400.access.AS400.promptSignon(AS400.java:2599)
+	at com.ibm.as400.access.AS400.signon(AS400.java:3910)
+	at com.ibm.as400.access.AS400.connectService(AS400.java:1168)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3301)
+	... 13 more
+
+!ENTRY org.eclipse.datatools.connectivity 4 -1 2022-01-12 10:29:42.972
+!MESSAGE Could not connect to JDA_QA.
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2022-01-12 10:29:42.972
+!MESSAGE Error creating SQL Model Connection connection to JDA_QA. (Error: The application requester cannot establish the connection. (Connection timed out: connect))
+!STACK 0
+java.sql.SQLException: The application requester cannot establish the connection. (Connection timed out: connect)
+	at com.ibm.as400.access.JDError.throwSQLException(JDError.java:565)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3309)
+	at com.ibm.as400.access.AS400JDBCDriver.prepareConnection(AS400JDBCDriver.java:1393)
+	at com.ibm.as400.access.AS400JDBCDriver.initializeConnection(AS400JDBCDriver.java:1230)
+	at com.ibm.as400.access.AS400JDBCDriver.connect(AS400JDBCDriver.java:371)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:202)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:75)
+	at com.ibm.datatools.db2.connection.DB2UniversalDriverConnectionFactory.createConnection(DB2UniversalDriverConnectionFactory.java:121)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:392)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.initializeJDBCConnection(ConnectionInfoImpl.java:718)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionInfoImpl.<init>(ConnectionInfoImpl.java:703)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:38)
+	at org.eclipse.datatools.connectivity.sqm.core.SQMConnectionFactory.createConnection(SQMConnectionFactory.java:45)
+	at org.eclipse.datatools.connectivity.sqm.internal.core.connection.ConnectionFactory.createConnection(ConnectionFactory.java:59)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryAdapterProvider.createConnection(ConnectionFactoryAdapterProvider.java:114)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:163)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at com.ibm.as400.access.PortMapper.getSocketConnection(PortMapper.java:273)
+	at com.ibm.as400.access.PortMapper.getServerSocket(PortMapper.java:193)
+	at com.ibm.as400.access.AS400ImplRemote.signonConnect(AS400ImplRemote.java:2334)
+	at com.ibm.as400.access.AS400ImplRemote.signon(AS400ImplRemote.java:2250)
+	at com.ibm.as400.access.AS400.sendSignonRequest(AS400.java:3035)
+	at com.ibm.as400.access.AS400.promptSignon(AS400.java:2599)
+	at com.ibm.as400.access.AS400.signon(AS400.java:3910)
+	at com.ibm.as400.access.AS400.connectService(AS400.java:1168)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3301)
+	... 19 more
+!SUBENTRY 1 org.eclipse.datatools.connectivity 2 -1 2022-01-12 10:29:42.973
+!MESSAGE Error creating JDBC Connection connection to JDA_QA. (Error: The application requester cannot establish the connection. (Connection timed out: connect))
+!STACK 0
+java.sql.SQLException: The application requester cannot establish the connection. (Connection timed out: connect)
+	at com.ibm.as400.access.JDError.throwSQLException(JDError.java:565)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3309)
+	at com.ibm.as400.access.AS400JDBCDriver.prepareConnection(AS400JDBCDriver.java:1393)
+	at com.ibm.as400.access.AS400JDBCDriver.initializeConnection(AS400JDBCDriver.java:1230)
+	at com.ibm.as400.access.AS400JDBCDriver.connect(AS400JDBCDriver.java:371)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.createConnection(JDBCConnection.java:202)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.internalCreateConnection(DriverConnectionBase.java:105)
+	at org.eclipse.datatools.connectivity.DriverConnectionBase.open(DriverConnectionBase.java:54)
+	at org.eclipse.datatools.connectivity.drivers.jdbc.JDBCConnection.open(JDBCConnection.java:75)
+	at com.ibm.datatools.db2.connection.DB2UniversalDriverConnectionFactory.createConnection(DB2UniversalDriverConnectionFactory.java:121)
+	at org.eclipse.datatools.connectivity.internal.ConnectionFactoryProvider.createConnection(ConnectionFactoryProvider.java:83)
+	at org.eclipse.datatools.connectivity.internal.ConnectionProfile.createConnection(ConnectionProfile.java:392)
+	at org.eclipse.datatools.connectivity.internal.ManagedConnection.createConnection(ManagedConnection.java:166)
+	at org.eclipse.datatools.connectivity.internal.CreateConnectionJob.run(CreateConnectionJob.java:56)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+Caused by: java.net.ConnectException: Connection timed out: connect
+	at java.net.DualStackPlainSocketImpl.connect0(Native Method)
+	at java.net.DualStackPlainSocketImpl.socketConnect(DualStackPlainSocketImpl.java:90)
+	at java.net.AbstractPlainSocketImpl.doConnect(AbstractPlainSocketImpl.java:380)
+	at java.net.AbstractPlainSocketImpl.connectToAddress(AbstractPlainSocketImpl.java:236)
+	at java.net.AbstractPlainSocketImpl.connect(AbstractPlainSocketImpl.java:218)
+	at java.net.PlainSocketImpl.connect(PlainSocketImpl.java:183)
+	at java.net.SocksSocketImpl.connect(SocksSocketImpl.java:403)
+	at java.net.Socket.connect(Socket.java:682)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:90)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:55)
+	at java.lang.reflect.Method.invoke(Method.java:508)
+	at com.ibm.as400.access.PortMapper.getSocketConnection(PortMapper.java:273)
+	at com.ibm.as400.access.PortMapper.getServerSocket(PortMapper.java:193)
+	at com.ibm.as400.access.AS400ImplRemote.signonConnect(AS400ImplRemote.java:2334)
+	at com.ibm.as400.access.AS400ImplRemote.signon(AS400ImplRemote.java:2250)
+	at com.ibm.as400.access.AS400.sendSignonRequest(AS400.java:3035)
+	at com.ibm.as400.access.AS400.promptSignon(AS400.java:2599)
+	at com.ibm.as400.access.AS400.signon(AS400.java:3910)
+	at com.ibm.as400.access.AS400.connectService(AS400.java:1168)
+	at com.ibm.as400.access.AS400JDBCConnection.setProperties(AS400JDBCConnection.java:3301)
+	... 13 more
+!SESSION 2022-02-23 12:10:19.651 -----------------------------------------------
+eclipse.buildId=4.4.2.M20150204-1700
+java.fullversion=8.0.6.15 - pwa6480sr6fp15-20200724_01(SR6 FP15)
+JRE 1.8.0 Windows 10 amd64-64-Bit Compressed References 20200724_452227 (JIT enabled, AOT enabled)
+OpenJ9   - 4ce4b9d
+OMR      - 08b0594
+IBM      - 70917a2
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -showlocation -product com.ibm.etools.msgbroker.tooling.ide tools_auto -showlocation -product com.ibm.etools.msgbroker.tooling.ide
+
+!ENTRY org.eclipse.emf.ecore 2 0 2022-02-23 12:10:24.654
+!MESSAGE Both 'com.ibm.etools.javaee.core' and 'com.ibm.etools.mft.service.model' register an extension parser for 'application'
+
+!ENTRY org.eclipse.ui 2 2 2022-02-23 12:10:32.540
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.adapter.c, page: com.ibm.adapter.c.ui.preferencepage.CPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-02-23 12:10:32.547
+!MESSAGE Invalid preference category path: com.ibm.debug.breakpoints.common.pref.tracepoint (bundle: com.ibm.debug.wsa, page: com.ibm.debug.wsa.WSATracepointPreferencePage)
+
+!ENTRY org.eclipse.ui 2 2 2022-02-23 12:10:32.549
+!MESSAGE Invalid preference category path: com.ibm.importer.preferences (bundle: com.ibm.etools.cobol.preference.ui, page: com.ibm.etools.cobol.preference.ui.preferencepage.CobolPreferencePage)
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-02-23 12:10:40.452
+!MESSAGE 
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-02-23 12:10:40.454
+!MESSAGE C:\Program Files\IBM\IIB\10.0.0.22\tools>mqsifindmqpath
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-02-23 12:10:41.175
+!MESSAGE BIP8071I: Successful command completion. C:\Program Files\IBM\MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-02-23 12:10:41.178
+!MESSAGE MQ Install location found:C:/Program Files/IBM/MQ
+
+!ENTRY com.ibm.mq.runtime 1 0 2022-02-23 12:10:41.179
+!MESSAGE 
+
+!ENTRY com.ibm.etools.mft.uri 0 0 2022-02-23 12:48:48.816
+!MESSAGE 
