@@ -1,0 +1,18 @@
+gcs:
+  project-id: "11111111"
+  bucket-name: "vsi-unscanned-uscentral1"
+  # Chunk size for downloads: 8 MB (well below Apigee's 10 MB gateway limit)
+  download-chunk-size-bytes: 8388608
+  # Temporary directory for assembling chunked uploads before pushing to GCS
+  temp-dir: "/tmp/gcs-chunks"
+
+spring:
+  servlet:
+    multipart:
+      enabled: true
+      # Each individual chunk upload must be ≤ 10 MB (Apigee limit)
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+server:
+  port: 8080
