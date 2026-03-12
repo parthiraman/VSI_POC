@@ -1,0 +1,4 @@
+com/vsipoc/api/VsiPocApplication.class
+com/vsipoc/api/controller/MessageController.class
+com/vsipoc/api/service/MessageService.class
+com/vsipoc/api/model/Message.class
